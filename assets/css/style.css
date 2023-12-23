@@ -273,8 +273,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #749677;}
 /*.single-about-img */
 .single-about-img img {
     /* Adjust the max-width and height according to your needs */
-    max-width: 4032px;
-    height: 3042px;
+    max-width: 500px;
+    height: 468px;
   
     /* Create a clip-path that defines the specific shape of the element */
     /* This is a placeholder - you would need to define the actual shape */
