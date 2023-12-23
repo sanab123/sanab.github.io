@@ -271,20 +271,38 @@ nav.navbar.bootsnav .navbar-toggle i{color: #749677;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
-.single-about-img:before {
-    position:  absolute;
-    content: " ";
-    top: 0;
-    left:  0;
-    width: 100%;
-    height:  90%;
-    background: rgba(31,44,108,.3);
-}
 .single-about-img img {
+    /* Adjust the max-width and height according to your needs */
     max-width: 500px;
     height: 468px;
-}
+  
+    /* Create a clip-path that defines the specific shape of the element */
+    /* This is a placeholder - you would need to define the actual shape */
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  
+  .single-about-img::before {
+    /* Positions the pseudo-element */
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+  
+    /* Semi-transparent overlay */
+    background: rgba(31, 44, 108, 0.3);
+  
+    /* Applies the same clip-path to the overlay */
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  
+  /* You may also need to set the position of the parent element */
+  .single-about-img {
+    position: relative;
+    box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+  }
+  
 .about-list-icon{
     display: flex;
     justify-content: center;
