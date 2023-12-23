@@ -41,7 +41,7 @@ body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
 	color: #676a81;
-	background: #fff;
+	background: #000000;
     max-width:1920px;
     margin:0 auto;
 	overflow-x:hidden;
@@ -106,12 +106,12 @@ html,body{
 }
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
-    background-color: #fff;
+    background-color: #000000;
     border: none;
 }
 
 nav.navbar.bootsnav {
-    background-color: #fff;
+    background-color: #000000;
     border-bottom: transparent;
     box-shadow: 0 3px 15px rgba(0,0,0,.2);
 }
@@ -238,7 +238,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #749677;}
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
-.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
+.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#496356;border: 1px solid #3c554d;}
 /*.header-text-area*/
 
 /*-------------------------------------
@@ -277,13 +277,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #749677;}
     content: " ";
     top: 0;
     left:  0;
-    width: 109%;
-    height:  100%;
+    width: 100%;
+    height:  90%;
     background: rgba(31,44,108,.3);
 }
 .single-about-img img {
-    max-width: 400px;
-    height: 300px;
+    max-width: 500px;
+    height: 468px;
 }
 .about-list-icon{
     display: flex;
@@ -329,7 +329,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #749677;}
 --------------------------------------*/
 
 .education {
-    background:  #f9fbfd;
+    background:  #000000;
     padding-top:  50px;
 }
 .education-horizontal-timeline {
@@ -700,11 +700,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .contact-form .form-control {
     padding: 25px;
     font-size: 14px;
-    border: 1px solid #fff;
+    border: 1px solid #000000;
     border-radius: 0px;
     box-shadow: none;
     outline: 0!important;
-    background: #fff;
+    background: #050404;
     color: #636a82;
     resize: none;
 }
