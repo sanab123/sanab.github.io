@@ -190,10 +190,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #749677;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:  #ffffff;
     background-size:cover;
     background-position: center;
-    height:890px;
+    height:600px;
 }
 .welcome-hero:before{
     position:absolute;
@@ -818,7 +818,317 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 .hm-footer-copyright p{
     color: #888ea5;
-    text-transform: capitalize;
+    text-transform: capitalize;.single-about-img img {
+        /* Adjust the max-width and height according to your needs */
+        max-width: 500px;
+        height: 468px;
+      
+        /* Create a clip-path that defines the specific shape of the element */
+        /* This is a placeholder - you would need to define the actual shape */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      .single-about-img::before {
+        /* Positions the pseudo-element */
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90%;
+      
+        /* Semi-transparent overlay */
+        background: rgba(31, 44, 108, 0.3);
+      
+        /* Applies the same clip-path to the overlay */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      /* You may also need to set the position of the parent element */
+      .single-about-img {
+        position: relative;
+        box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+      }
+      .single-about-img img {
+        /* Adjust the max-width and height according to your needs */
+        max-width: 500px;
+        height: 468px;
+      
+        /* Create a clip-path that defines the specific shape of the element */
+        /* This is a placeholder - you would need to define the actual shape */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      .single-about-img::before {
+        /* Positions the pseudo-element */
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90%;
+      
+        /* Semi-transparent overlay */
+        background: rgba(31, 44, 108, 0.3);
+      
+        /* Applies the same clip-path to the overlay */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      /* You may also need to set the position of the parent element */
+      .single-about-img {
+        position: relative;
+        box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+      }
+      .single-about-img img {
+        /* Adjust the max-width and height according to your needs */
+        max-width: 500px;
+        height: 468px;
+      
+        /* Create a clip-path that defines the specific shape of the element */
+        /* This is a placeholder - you would need to define the actual shape */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      .single-about-img::before {
+        /* Positions the pseudo-element */
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90%;
+      
+        /* Semi-transparent overlay */
+        background: rgba(31, 44, 108, 0.3);
+      
+        /* Applies the same clip-path to the overlay */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      /* You may also need to set the position of the parent element */
+      .single-about-img {
+        position: relative;
+        box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+      }
+      .single-about-img img {
+        /* Adjust the max-width and height according to your needs */
+        max-width: 500px;
+        height: 468px;
+      
+        /* Create a clip-path that defines the specific shape of the element */
+        /* This is a placeholder - you would need to define the actual shape */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      .single-about-img::before {
+        /* Positions the pseudo-element */
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90%;
+      
+        /* Semi-transparent overlay */
+        background: rgba(31, 44, 108, 0.3);
+      
+        /* Applies the same clip-path to the overlay */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      /* You may also need to set the position of the parent element */
+      .single-about-img {
+        position: relative;
+        box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+      }
+      .single-about-img img {
+        /* Adjust the max-width and height according to your needs */
+        max-width: 500px;
+        height: 468px;
+      
+        /* Create a clip-path that defines the specific shape of the element */
+        /* This is a placeholder - you would need to define the actual shape */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      .single-about-img::before {
+        /* Positions the pseudo-element */
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90%;
+      
+        /* Semi-transparent overlay */
+        background: rgba(31, 44, 108, 0.3);
+      
+        /* Applies the same clip-path to the overlay */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      /* You may also need to set the position of the parent element */
+      .single-about-img {
+        position: relative;
+        box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+      }
+      .single-about-img img {
+        /* Adjust the max-width and height according to your needs */
+        max-width: 500px;
+        height: 468px;
+      
+        /* Create a clip-path that defines the specific shape of the element */
+        /* This is a placeholder - you would need to define the actual shape */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      .single-about-img::before {
+        /* Positions the pseudo-element */
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90%;
+      
+        /* Semi-transparent overlay */
+        background: rgba(31, 44, 108, 0.3);
+      
+        /* Applies the same clip-path to the overlay */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      /* You may also need to set the position of the parent element */
+      .single-about-img {
+        position: relative;
+        box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+      }
+      .single-about-img img {
+        /* Adjust the max-width and height according to your needs */
+        max-width: 500px;
+        height: 468px;
+      
+        /* Create a clip-path that defines the specific shape of the element */
+        /* This is a placeholder - you would need to define the actual shape */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      .single-about-img::before {
+        /* Positions the pseudo-element */
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90%;
+      
+        /* Semi-transparent overlay */
+        background: rgba(31, 44, 108, 0.3);
+      
+        /* Applies the same clip-path to the overlay */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      /* You may also need to set the position of the parent element */
+      .single-about-img {
+        position: relative;
+        box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+      }
+      .single-about-img img {
+        /* Adjust the max-width and height according to your needs */
+        max-width: 500px;
+        height: 468px;
+      
+        /* Create a clip-path that defines the specific shape of the element */
+        /* This is a placeholder - you would need to define the actual shape */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      .single-about-img::before {
+        /* Positions the pseudo-element */
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90%;
+      
+        /* Semi-transparent overlay */
+        background: rgba(31, 44, 108, 0.3);
+      
+        /* Applies the same clip-path to the overlay */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      /* You may also need to set the position of the parent element */
+      .single-about-img {
+        position: relative;
+        box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+      }
+      .single-about-img img {
+        /* Adjust the max-width and height according to your needs */
+        max-width: 500px;
+        height: 468px;
+      
+        /* Create a clip-path that defines the specific shape of the element */
+        /* This is a placeholder - you would need to define the actual shape */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      .single-about-img::before {
+        /* Positions the pseudo-element */
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90%;
+      
+        /* Semi-transparent overlay */
+        background: rgba(31, 44, 108, 0.3);
+      
+        /* Applies the same clip-path to the overlay */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      /* You may also need to set the position of the parent element */
+      .single-about-img {
+        position: relative;
+        box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+      }
+      .single-about-img img {
+        /* Adjust the max-width and height according to your needs */
+        max-width: 500px;
+        height: 468px;
+      
+        /* Create a clip-path that defines the specific shape of the element */
+        /* This is a placeholder - you would need to define the actual shape */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      .single-about-img::before {
+        /* Positions the pseudo-element */
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90%;
+      
+        /* Semi-transparent overlay */
+        background: rgba(31, 44, 108, 0.3);
+      
+        /* Applies the same clip-path to the overlay */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      
+      /* You may also need to set the position of the parent element */
+      .single-about-img {
+        position: relative;
+        box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+      }
+                                                            
     padding: 38px 0;
 }
 .hm-footer-copyright p a {color: #888ea5;}
