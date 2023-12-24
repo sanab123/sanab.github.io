@@ -183,6 +183,33 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
     background-color: #FFF; /* Changed to white for better contrast */
 }
 
+/* Style for the images to make them look like clickable buttons */
+.image-button {
+    display: block; /* or 'inline-block' depending on layout */
+    margin: 20px; /* Adjust as necessary for spacing */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Initial subtle shadow */
+    cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+}
+
+/* Hover effect to scale the image and deepen the shadow */
+.image-button:hover {
+    transform: scale(1.05); /* Scales the image up to 105% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* More pronounced shadow on hover */
+}
+
+/* Optional: Floating effect using a keyframe animation */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* Apply the floating effect to the image */
+.image-button {
+    animation: float 3s ease-in-out infinite; /* Adjust timing as needed */
+}
+
+
 /*-----------------------------------------------------------------
   7. >>> Footer Style
 ----------------------------------------------------------------*/
