@@ -222,31 +222,43 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: rgba(255, 255, 255, 0.5);
-	font-size: 16px; /* Keeping original font size */
+	color: #FFF; /* Change the font color to solid white */
+  }
+  
+  /* Assuming .footer-content is a direct child of .container which has a max-width set */
+  .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
   }
   
   .social-icons a {
-	color: rgba(255, 255, 255, 0.75);
-	margin: 0 10px;
+	color: #FFF; /* Change the font color to solid white */
+	margin-right: 10px; /* Space between icons */
 	text-decoration: none; /* Remove underline from links */
   }
   
   .social-icons a:hover {
-	color: #FFF;
+	color: #F26464; /* Optional: color change on hover */
+  }
+  
+  .footer-message {
+	text-align: left; /* Align the text to the left */
   }
   
   .footer-message span {
-	color: #FFF;
+	color: #FFF; /* Change the font color to solid white */
 	display: block; /* Use 'block' to stack the messages */
   }
   
-  .footer-signoff span {
-	color: rgba(255, 255, 255, 0.5);
+  .footer-signoff {
+	text-align: right; /* Align the sign-off to the right */
   }
   
-  /* Additional styling may be required for positioning and responsive behavior */
-  
+  .footer-signoff span {
+	color: #FFF; /* Change the font color to solid white */
+  }
+	
 
 /*-------------------------------------------------------------------------------
  Responsive XS Style @media (max-width: 767px) 
