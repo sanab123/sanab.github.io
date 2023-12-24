@@ -95,7 +95,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 /* Section styling */
 .ds-work-section {
     padding-bottom: 80px;
-    background-color: #000; /* Change to red background */
+    background-color: rgba(0, 0, 0, 0.8); /* Change to red background */
 }
 
 /* Work list styling */
