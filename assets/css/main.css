@@ -225,23 +225,6 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 	color: #FFF; /* Change the font color to solid white */
   }
   
-  /* Assuming .footer-content is a direct child of .container which has a max-width set */
-  .container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-  }
-  
-  .social-icons a {
-	color: #FFF; /* Change the font color to solid white */
-	margin-right: 10px; /* Space between icons */
-	text-decoration: none; /* Remove underline from links */
-  }
-  
-  .social-icons a:hover {
-	color: #F26464; /* Optional: color change on hover */
-  }
-  
   .footer-message {
 	text-align: left; /* Align the text to the left */
   }
