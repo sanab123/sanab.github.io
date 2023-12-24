@@ -95,7 +95,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 /* Section styling */
 .ds-work-section {
     padding-bottom: 80px;
-    background-color: rgba(0, 0, 0, 0.6); /* Change to red background */
+    background-color: rgba(0, 0, 0, 0.9); /* Change to red background */
 }
 
 /* Work list styling */
@@ -213,7 +213,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 /*-----------------------------------------------------------------
   7. >>> Footer Style
 ----------------------------------------------------------------*/
-.ds-footer{ background-color: rgba(0, 0, 0, 0.6); padding:var(--margin-120) 0; }
+.ds-footer{ background-color: rgba(0, 0, 0, 0.9); padding:var(--margin-120) 0; }
 .ds-padding-0-about.ds-footer{ padding-top: 0 }
 .ds-lets_section h4{ color: #FFF;font-family: 'Inter', sans-serif; font-weight: 700; font-size:4.375rem; margin-bottom: 1.0625rem  }
 .ds-lets_section span{ color: #FFF; font-size:1.125rem;  }
