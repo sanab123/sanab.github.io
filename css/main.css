@@ -373,14 +373,13 @@ span.ds-year{ color: #373737; font-size: 14px; font-weight: 700; padding-bottom:
 span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-bottom: 30px; }
 .ds-experience-list p{ font-size: 16px; line-height: 24px; font-weight: 300; }
 .ds-experience-list ul{ list-style: none; padding: 0; margin: 0; padding-top: 10px; }
-.ds-experience-list ul li{font-size: 16px; line-height: 24px; font-weight: 300; padding-left: 28px; position:relative; margin-bottom: 20px;}
-.ds-experience-list ul li:before{ content: ""; position: absolute; left: 0; top: 10px; border-radius: 100%; width: 8px; height: 8px; background-color: #373737; }
+
 /* ------------------------------------------------------------------------------
 	 Footer
 -------------------------------------------------------------------------------*/
 .footer {
 	text-align: left;
-	background-color: #FFF;
+	background-color: #fff;
 	padding: 7%;
 }
 .footer h4 {
@@ -402,11 +401,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 	font-size: 11px;
 	margin: 0 2px;
 }
-.ds-social{ list-style: none; display: flex; align-items: center; flex-wrap: wrap; }
-.ds-social li{ margin-left: 12px; }
-.ds-social li:first-child{ margin-left: 0; }
-.ds-social li a{ border-radius: 100%; color: #FFF; width: 24px; height: 24px; background-color: #F26464; display:flex; justify-content: center; align-items: center; text-align: center; font-size: 16px; }
-.ds-social li a:hover{ background-color: #000; color: #FFF; }
+
 /* ------------------------------------------------------------------------------
 	 Work Details
 -------------------------------------------------------------------------------*/
