@@ -380,19 +380,19 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 -------------------------------------------------------------------------------*/
 .footer {
 	text-align: left;
-	background-color: #373737;
-	padding: 7%;
+	background-color: #000;
+	padding: 20%;
 }
 .footer h4 {
-	color: #000;
+	color: #373737;
 	margin: 0 0 15px 0;
 	padding: 0px;
 }
 .footer p {
-	color: #000;
+	color: #373737;
 }
 .footer a {
-	color: #000;
+	color: #373737;
 }
 .footer a:hover {
 	text-decoration: underline;
