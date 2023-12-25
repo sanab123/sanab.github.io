@@ -410,16 +410,36 @@ ul li {
 	font-size: 11px;
 	margin: 0 2px;
 }
-.social-icons a {
-	color: #fff; /* White color for the icons */
-	font-size: 20px; /* Size of the icons */
-	margin-right: 10px; /* Spacing between the icons */
-	transition: color 0.3s ease; /* Smooth color transition for hover effect */
+.social-icons {
+	display: flex;
+	justify-content: center; /* Center the icons container */
+	align-items: center;
   }
   
-  .social-icons a:hover {
-	color: #e84545; /* Color change on hover, match this with your theme */
+  .social-icon {
+	background-color: #e84545; /* The color you want for the icon background */
+	color: #fff; /* White color for the icon itself */
+	border-radius: 50%; /* Makes the background circle */
+	width: 40px; /* Width of the circle */
+	height: 40px; /* Height of the circle */
+	display: flex;
+	justify-content: center; /* Center the icon horizontally */
+	align-items: center; /* Center the icon vertically */
+	margin: 0 5px; /* Spacing between icons */
+	text-decoration: none; /* Remove underline from links */
+	transition: background-color 0.3s ease; /* Smooth transition for hover effect */
   }
+  
+  .social-icon:hover {
+	background-color: #c73232; /* Darker shade when hovered */
+  }
+  
+  .social-icon i {
+	font-size: 20px; /* Size of the FontAwesome icon */
+  }
+  
+  /* Ensure FontAwesome is included in your project */
+  
 /* ------------------------------------------------------------------------------
 	 Work Details
 -------------------------------------------------------------------------------*/
