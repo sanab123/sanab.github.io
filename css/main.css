@@ -380,19 +380,19 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 -------------------------------------------------------------------------------*/
 .footer {
 	text-align: left;
-	background-color: #fff;
-	padding: 5%;
+	background-color: #333;
+	padding: 7%;
 }
 .footer h4 {
 	color: #fff;
-	margin: 0 0 5px 0;
+	margin: 0 0 15px 0;
 	padding: 0px;
 }
 .footer p {
-	color: #373737;
+	color: #c8c8c8;
 }
 .footer a {
-	color: #373737;
+	color: #fff;
 }
 .footer a:hover {
 	text-decoration: underline;
@@ -402,7 +402,6 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 	font-size: 11px;
 	margin: 0 2px;
 }
-
 /* ------------------------------------------------------------------------------
 	 Work Details
 -------------------------------------------------------------------------------*/
