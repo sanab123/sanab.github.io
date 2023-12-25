@@ -410,6 +410,16 @@ ul li {
 	font-size: 11px;
 	margin: 0 2px;
 }
+.social-icons a {
+	color: #fff; /* White color for the icons */
+	font-size: 20px; /* Size of the icons */
+	margin-right: 10px; /* Spacing between the icons */
+	transition: color 0.3s ease; /* Smooth color transition for hover effect */
+  }
+  
+  .social-icons a:hover {
+	color: #e84545; /* Color change on hover, match this with your theme */
+  }
 /* ------------------------------------------------------------------------------
 	 Work Details
 -------------------------------------------------------------------------------*/
