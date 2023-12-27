@@ -291,9 +291,7 @@ ul li {
 	 Hero content
 -------------------------------------------------------------------------------*/
 .hero {
-	width: 94%;
-	height: 500px;
-	margin: auto;
+	margin-top: 10%;
 }
 .hero-content {
 }
