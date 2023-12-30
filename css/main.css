@@ -412,8 +412,8 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 }
 .footer .footer-share a {
 	border: none;
-	font-size: 13px;
-	color: #000;
+	font-size: 20px;
+	color: #fff;
 	letter-spacing: 15px;
 }
 .footer .fa-heart {
