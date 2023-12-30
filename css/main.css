@@ -291,7 +291,6 @@ ul li {
 	 Hero content
 -------------------------------------------------------------------------------*/
 .hero {
-	width: 94%;
 	margin: 20%;
 	background-color: #f2f2f2;
 	min-height: 750px;
@@ -301,7 +300,6 @@ ul li {
 }
 .hero h1 {
 	font-size: 48px;
-	text-transform: uppercase;
 }
 .hero h4 {
 	font-weight: 400;
