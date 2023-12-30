@@ -293,10 +293,8 @@ ul li {
 .hero {
 	margin: 20%;
 	background-color: #f2f2f2;
-	min-height: 750px;
 }
 .hero-content {
-	margin: 50px;
 }
 .hero h1 {
 	font-size: 48px;
