@@ -292,8 +292,9 @@ ul li {
 -------------------------------------------------------------------------------*/
 .hero {
 	width: 94%;
-	margin: 40%;
+	margin: 20%;
 	background-color: #f2f2f2;
+	min-height: 750px;
 }
 .hero-content {
 	margin: 50px;
@@ -309,7 +310,7 @@ ul li {
 	color: #6c7279;
 	font-size: 13px;
 	font-weight: 400;
-	margin-top: 40%;
+	margin-top: 20%;
 }
 /* ------------------------------------------------------------------------------
 	 Experience
