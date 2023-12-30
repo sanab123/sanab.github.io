@@ -303,10 +303,7 @@ ul li {
 	font-weight: 400;
 }
 .hero p {
-	color: #6c7279;
-	font-size: 13px;
-	font-weight: 400;
-	margin-top: 20%;
+	padding-top: 20px;
 }
 /* ------------------------------------------------------------------------------
 	 Experience
