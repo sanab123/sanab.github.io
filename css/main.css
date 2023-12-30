@@ -403,6 +403,19 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 .footer a:hover {
 	text-decoration: underline;
 }
+.footer .footer-share {
+	margin-top: 0;
+}
+.footer .footer-share li {
+	display: inline-block;
+	float: none;
+}
+.footer .footer-share a {
+	border: none;
+	font-size: 13px;
+	color: #000;
+	letter-spacing: 15px;
+}
 .footer .fa-heart {
 	color: #e84545;
 	font-size: 11px;
